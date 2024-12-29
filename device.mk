@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from xiaomi sm8450-common
-$(call inherit-product, device/xiaomi/sm8450-common/common.mk)
+# Inherit from xiaomi sm7635-common
+$(call inherit-product, device/xiaomi/sm7635-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/zeus/zeus-vendor.mk)
+$(call inherit-product, vendor/xiaomi/amethyst/amethyst-vendor.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \

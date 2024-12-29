@@ -22,11 +22,11 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/sm8450-common',
-    'hardware/qcom-caf/sm8450',
+    'device/xiaomi/sm7635-common',
+    'hardware/qcom-caf/sm7635',
     'hardware/xiaomi',
     'vendor/qcom/opensource/commonsys-intf/display',
-    'vendor/xiaomi/sm8450-common',
+    'vendor/xiaomi/sm7635-common',
 ]
 
 lib_fixups: lib_fixups_user_type = {
@@ -40,8 +40,8 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     (
-        'vendor/etc/camera/zeus_enhance_motiontuning.xml',
-        'vendor/etc/camera/zeus_motiontuning.xml',
+        'vendor/etc/camera/amethyst_enhance_motiontuning.xml',
+        'vendor/etc/camera/amethyst_motiontuning.xml',
     ): blob_fixup().regex_replace('xml=version', 'xml version'),
     (
         'vendor/etc/camera/pureShot_parameter.xml',
@@ -54,7 +54,7 @@ blob_fixups: blob_fixups_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'zeus',
+    'amethyst',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
@@ -65,6 +65,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm8450-common', module.vendor
+        module, 'sm7635-common', module.vendor
     )
     utils.run()

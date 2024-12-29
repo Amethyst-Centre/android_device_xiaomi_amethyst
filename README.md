@@ -1,24 +1,25 @@
 Copyright (C) 2022-2023 The LineageOS Project
 
-Device configuration for Xiaomi 12 Pro
+Device configuration for REDMI Note 14 Pro+
 =========================================
 
-The Xiaomi 12 Pro (codenamed _"zeus"_) is a high-end smartphone from Xiaomi.
+The REDMI Note 14 Pro+ (codenamed _"amethyst"_) is a mid-end smartphone from REDMI.
 
-It was globally released in March 2022.
+It was globally released in Sep 2024.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-Platform | Snapdragon® 8 Gen 1 (SM8450)
-RAM & Storage | 8GB/128GB, 8GB/256GB, 12GB/256GB (LPDDR5 RAM, UFS 3.1 storage)
-Shipped Android Version | 12
-Battery | Non-removable, 4600 mAh
-Display | 6.73″, LTPO 120Hz, 3200x1440 (522 ppi)
-Rear camera | 50MP wide angle, 50MP ultra wide-angle, 50MP telephoto
-Front camera | 32MP in-display
+Platform | Snapdragon® 7s Gen 3 (SM7635)
+RAM & Storage | 8GB/128GB, 8GB/256GB, 12GB/256GB, 12GB/512GB, 16GB/512GB (LPDDR5 RAM, UFS 3.1 storage | for last config)
+Shipped Android Version | 14 | HyperOS
+Battery | Non-removable, Si/C 6200 mAh
+Display | 6.73″, 120Hz, 2712x1220 (446 ppi)
+Rear camera | 50MP wide angle, 8MP ultra wide-angle, 50MP telephoto
+Front camera | 20MP in-display
 
 ## Device picture
 
-![Xiaomi 12 Pro](https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1646293765.11623978.png "Xiaomi 12 Pro in blue")
+![image](https://github.com/user-attachments/assets/9175e29e-a9d6-400c-8861-a50828b71882)
+
